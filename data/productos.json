@@ -1,0 +1,56 @@
+[
+    {
+        "producto_id": 1,
+        "titulo": "Angel",
+        "precio": "$2000",
+        "descripcion": "Print de la ilustración basada en el webcomic Canopus",
+        "tamano": "25 x 25 cm",
+        "imagen": "angel.jpg",
+        "imagen_alt": "Angel print"
+    },
+    {
+        "producto_id": 2,
+        "titulo": "Stede & Blackbeard",
+        "precio": "$2500",
+        "descripcion": "Print del fanart basado en la serie Our Flag Means Death",
+        "tamano": "35 x 35 cm",
+        "imagen": "barbaflor.jpg",
+        "imagen_alt": "Stede & Blackbeard print"
+    },
+    {
+        "producto_id": 3,
+        "titulo": "Canopus",
+        "precio": "$2000",
+        "descripcion": "Print de la ilustración basada en el webcomic Canopus featuring a Angel & Demonio",
+        "tamano": "25 x 25 cm",
+        "imagen": "canopus.jpg",
+        "imagen_alt": "Angel & Demonio print"
+    },
+    {
+        "producto_id": 4,
+        "titulo": "Jacaranda",
+        "precio": "$2300",
+        "descripcion": "Print de una ilustración original con motivos inspirados en la naturaleza",
+        "tamano": "30 x 30 cm",
+        "imagen": "jacaranda.jpg",
+        "imagen_alt": "Jacaranda print"
+    },
+    {
+        "producto_id": 5,
+        "titulo": "Passive Aggression",
+        "precio": "$3000",
+        "descripcion": "Print del fanart de Stede & Blackbeard basado en la serie Our Flag Means Death",
+        "tamano": "40 x 40 cm",
+        "imagen": "passive-aggresion.jpg",
+        "imagen_alt": "Passive Aggression print"
+    },
+    {
+        "producto_id": 6,
+        "titulo": "Tea Time",
+        "precio": "$2800",
+        "descripcion": "Print del fanart de Stede & Blackbeard tomando un tecito basado en la serie Our Flag Means Death",
+        "tamano": "35 x 25 cm",
+        "imagen": "tea-time.jpg",
+        "imagen_alt": "Tea time print"
+    }
+]

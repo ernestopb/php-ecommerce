@@ -1,0 +1,225 @@
+body {
+  
+    background: blanchedalmond;
+    margin: 0;
+    
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 25%;
+    
+}
+
+#banner{
+    min-height: 550px;
+    background-size: 65%;
+    background-image: url(../imgs/banner2.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+nav li{
+    float: left;
+    padding-left: 22%;
+    padding-top: 2em;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #231342;
+    
+  }
+
+nav li a:hover {
+    background-color: #111;
+  }
+
+.contenedor{
+    max-width: 1366px;
+    margin: auto;
+}
+
+#presentacion{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#presentacion h2 h3{
+    color: #231342;
+}
+
+#presentacion .contenedor{
+    display: flex;
+    text-align: center;
+    padding: 220px 10px;
+    justify-content: center;
+}
+
+#presentacion .imgContenedor{
+    background-image: url(../imgs/unluckychai.JPG);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 400px;
+}
+
+#presentacion .textoPresentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 60%;
+    text-align: left;
+    padding: 0px 35px;
+}
+
+#main-productos{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+}
+
+#main-productos .contenedor{
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-productos .contenedor a{
+    text-decoration: none;
+}
+
+#main-detalle{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+}
+
+#main-detalle .contenedor{
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#boton-carrito{
+    background-color: #231342;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+#boton-carrito:hover{
+    background-color: black;
+}
+
+#main-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+}
+
+input[type=text], input[type=email], input[type=tel], textarea{
+    width: 75%;
+    padding: 10px;
+    border: 2px #231342;
+    border-radius: 2px;
+    resize: vertical;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 0.8em;
+}
+
+label{
+    padding: 10px 10px 10px;
+    display: inline-block;
+}
+
+input[type=submit]{
+    background-color: #231342;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 2px;
+    float: right;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: black;
+}
+
+#contacto .contenedor{
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.columnaIzq{
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+}
+
+.columnaDer{
+    float: left;
+    width: 75%;
+    margin-top: 5px;
+}
+
+.columna:after{
+content: "";
+display: table;
+clear: both;
+}
+
+#contacto label{
+    color: black;
+}
+
+#main-404{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+}
+
+#main-404 .contenedor{
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
